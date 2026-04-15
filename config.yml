@@ -20,7 +20,7 @@ modules:
 
   # --- 自定义模块 ---
   custom:
-    enable: false # 是否启用自定义模块下载，默认禁用
+    enable: true # 是否启用自定义模块下载，默认禁用
     list:
     - name: "QStory" # 示例：QStory
       download_link: "https://qstory.sacz.top/update/download"
@@ -37,7 +37,7 @@ modules:
 # -----------------
 QQ:
   custom:
-    enable: false # 选择是否修补自定义版本 QQ
+    enable: true # 选择是否修补自定义版本 QQ
     version: "9.1.52" # 自定义QQ版本号（影响最终修补后的文件名）
     url: "https://downv6.qq.com/qqweb/QQ_1/android_apk/Android_9.1.52_64.apk"
     # 自定义 QQ 版本下载链接（确保此链接可直接下载文件）
